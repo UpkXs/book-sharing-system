@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+
+<form th:action="@{/reader/saveReader/saveReader2}"  method="post" >
+    First Name: <input type="text" name="first_name" th:value="${first_name}" placeholder="enter First Name of reader"/><br>
+    Last Name: <input type="text" name="last_name" th:value="${last_name}" placeholder="enter Last Name of reader"/><br>
+    Age: <input type="text" name="age" th:value="${age}" placeholder="enter Age of reader"/><br>
+
+
+
+    <p><input type="submit" value="Submit" /></p>
+</form>
+
+<!--<form th:action="@{/reader/saveReader/saveReader2}"  method="post" >-->
+<!--    Id: <input type="text" name="id" th:value="${id}" placeholder="enter id of reader"/>-->
+<!--    First Name: <input type="text" name="first_name" th:value="${first_name}" placeholder="enter First Name of reader"/>-->
+<!--    Last Name: <input type="text" name="last_name" th:value="${last_name}" placeholder="enter Last Name of reader"/>-->
+<!--    Age: <input type="text" name="age" th:value="${age}" placeholder="enter Age of reader"/>-->
+
+
+
+<!--    <p><input type="submit" value="Submit" /></p>-->
+<!--</form>-->
+
+<!--<h2 th:object="${book}">${book.name}</h2>-->
+
+</body>
+</html>

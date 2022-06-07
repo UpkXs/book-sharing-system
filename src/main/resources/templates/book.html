@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+
+<a th:href="@{/book/showAllBooks}">show all books</a>
+<br><br>
+<a th:href="@{/book/showPublishedBookByMe}">show all books published by me</a>
+<br><br>
+<a th:href="@{/book/showMyBooksThatExchanged}">show all my books that exchanged</a>
+<br><br>
+<a th:href="@{/book/showBooksThatIRanted}">show all books that i rented from other users</a>
+<br><br>
+<a th:href="@{/book/findBook}">find book by id</a>
+<br><br>
+<a th:href="@{/book/findBookByTitle}">find book by title</a>
+<br><br>
+<a th:href="@{/book/findBookByAuthor}">find book by author</a>
+<br><br>
+<a th:href="@{/book/findBookByGenre}">find book by genre</a>
+<br><br>
+<a th:href="@{/book/saveBook}">add book to share</a>
+<br><br>
+<a th:href="@{/book/rentBook}">rent book</a>
+
+</body>
+</html>

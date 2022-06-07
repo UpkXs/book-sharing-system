@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: kz.iitu.itse1907.saylau.repository.SoldierRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.49 s <<< FAILURE! - in kz.iitu.itse1907.saylau.repository.SoldierRepositoryTest
+selectAllCaptains  Time elapsed: 6.468 s  <<< ERROR!
+org.springframework.transaction.InvalidIsolationLevelException: DefaultJpaDialect does not support custom isolation levels due to limitations in standard JPA. Specific arrangements may be implemented in custom JpaDialect variants.
+	at kz.iitu.itse1907.saylau.repository.SoldierRepositoryTest.selectAllCaptains(SoldierRepositoryTest.java:31)
+

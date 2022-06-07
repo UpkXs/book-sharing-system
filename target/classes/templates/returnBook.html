@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+
+
+
+<form th:action="@{/book/returnBook/returnBook2}" method="post" >
+    Id: <input type="text" name="reader_id" th:value="${reader_id}" placeholder="enter id of Reader"/>
+    <p><input type="submit" value="Submit" /></p>
+</form>
+
+</body>
+</html>

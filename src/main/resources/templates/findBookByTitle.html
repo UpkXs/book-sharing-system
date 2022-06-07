@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+
+<form th:action="@{/book/findBookByTitle/bookAvailability}"  method="post" >
+    Title: <input type="text" name="title" th:value="${title}" placeholder="enter title of book"/>
+    <p><input type="submit" value="Submit" /></p>
+</form>
+
+<!--<h2 th:object="${book}">${book.name}</h2>-->
+
+</body>
+</html>
